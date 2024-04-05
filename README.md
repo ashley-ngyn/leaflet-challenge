@@ -18,3 +18,24 @@ Part 1: Create the Earthquake Visualization
 
 ## data source ##
 https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+
+## sources used ##
+* 01: https://stackoverflow.com/questions/3743491/why-might-chrome-return-an-incorrect-mime-type-error-for-one-of-my-js-files-when
+* 02: https://www.w3schools.com/colors/colors_picker.asp
+* 03: 10-Stu_GeoJson
+* 04: https://javascript.info/new-function#:~:text=The%20syntax%20for%20creating%20a,with%20the%20arguments%20arg1...
+
+ * 01 - Make java run in google chrome
+     <script type="application/x-javascript" src="static/js/logic.js"></script>
+
+* 02 - Color hex
+    if (depth < 10) return "#00ff00";
+
+* 03 - createFeatures
+     function createFeatures(earthquakeData){
+  * Base layers url
+    let street = L.titleLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    
+* 04 - Use new to create a function
+    new Date(features.properties.time)
