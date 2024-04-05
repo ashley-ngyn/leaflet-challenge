@@ -1,4 +1,4 @@
-# belly-button-challenge #
+# leaflet-challenge #
 
 ### link to static page ###
  https://ashley-ngyn.github.io/leaflet-challenge/
