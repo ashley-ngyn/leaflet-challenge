@@ -32,10 +32,10 @@ https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
     if (depth < 10) return "#00ff00";
 
 * 03 - createFeatures
-    ** function createFeatures(earthquakeData){
+     * function createFeatures(earthquakeData){
   * Base layers url
     let street = L.titleLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-    **  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+     *  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     
 * 04 - Use new to create a function
     new Date(features.properties.time)
