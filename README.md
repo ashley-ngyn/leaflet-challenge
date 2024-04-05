@@ -1,6 +1,7 @@
 # belly-button-challenge #
 
-## link to static page #
+### link to static page ###
+ https://ashley-ngyn.github.io/leaflet-challenge/
 
 ## instructions ## 
 Part 1: Create the Earthquake Visualization
